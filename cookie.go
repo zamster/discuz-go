@@ -12,9 +12,9 @@ import (
 
 // 从Discuz的config_global.php中获取的AuthKey, 用意生成解码用的key
 const (
-    CookiePrefix = "UqpT_c401_auth"
-    SaltKey      = "UqpT_c401_saltkey"
-    AuthKey      = "e4fdcbMjMKQ1oOp8"
+    CookiePrefix = "\"
+    SaltKey      = "\"
+    AuthKey      = "\"
 )
 
 var ErrNoUidInCookie = os.NewError("discus: no uid found in cookie")
